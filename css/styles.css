@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #f1faf5;
+  height: 1042px;
+  position: relative;
+}
+
+header .img-header {
+  position: relative;
+}
+
+header .img-header img {
+  position: absolute;
+  left: -140px;
+}
+
+header small {
+  color: #475768;
+  font-size: 18px;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #475768;
+}
+
+header .phone {
+  font-size: 20px;
+  color: #475768;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header .btn-primary {
+  background-color: #e1a18e;
+  color: #fff;
+  border-radius: 30px;
+  border: 0;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 13px 22px;
+}
+
+header .content-banner {
+  position: relative;
+}
+
+header .content-banner img {
+  position: absolute;
+  left: -130px;
+}
+
+header .btn-primary:hover {
+  background-color: #b38172;
+  color: #fff;
+}
+
+header .btn-primary i {
+  font-size: 28px;
+  margin-right: 10px;
+}
+header .follow-links-header {
+  position: relative;
+}
+
+header .follow-links-header ul li {
+  list-style: none;
+}
+header .follow-links-header ul li a {
+  color: #aee2c3;
+}
+
+header .follow-links-header .follow-text {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: -110px;
+  letter-spacing: 3px;
+  font-size: 15px;
+  left: -9px;
+  color: #aee2c3;
+}
+
+.section-carousel-home h2 {
+  font-weight: 700 !important;
+  font-size: 45px !important;
+  color: #475768;
+}
+
+.carousel-home .fa-chevron-left {
+  position: absolute;
+  left: -26px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  height: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #aee2c3;
+}
+
+.carousel-home .fa-chevron-right {
+  position: absolute;
+  right: -26px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  height: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #aee2c3;
+}
+
+.carousel-home-2 .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.carousel-home-2 .slick-dots li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.carousel-home-2 .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.carousel-home-2 .slick-dots .slick-active button::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #98c5aa;
+  border-radius: 50%;
+  border: 2px solid #98c5aa;
+}
+
+.carousel-home-2 .slick-dots li button::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #98c5aa;
+}
+
+.section-benefits {
+  height: 620px;
+}
+
+.section-benefits .title {
+  background-image: url("../img/img-benefits.png");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  height: 632px;
+  background-size: 73%;
+  background-position: 117px;
+}
+
+.section-benefits h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #475768;
+}
+
+.section-benefits p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.section-service h5 {
+  font-weight: 500;
+  color: #475768;
+}
+
+.section-faqs {
+  background-color: #d9f3e5;
+  margin-top: 150px !important;
+}
+
+.section-faqs h1 {
+  font-size: 40px;
+  color: #475768;
+  font-weight: 700;
+}
+
+.section-faqs .btn.btn-primary {
+  background-color: #e1a18e;
+  color: #fff;
+  border-radius: 30px;
+  border: 0;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 13px 22px;
+}
+
+.accordion .accordion-item {
+  border: 0;
+  border-radius: 15px !important;
+}
+
+.accordion .accordion-header {
+  border: 0;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.accordion .accordion-header button {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.accordion .accordion-header .accordion-button.collapsed {
+  background-color: #fff !important;
+  padding: 20px;
+  border: 0;
+  border-radius: 15px !important;
+  color: #475768;
+}
+
+.accordion .accordion-header .accordion-button {
+  background-color: #aad4bc !important;
+  padding: 20px;
+  border: 0;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.accordion-body, .accordion-collapse {
+  border-radius: 0 0 15px 15px !important;
+}
+
+.accordion-body {
+  padding: 50px 80px !important;
+}
+
+.accordion-body h4 {
+  color: #475768;
+  font-weight: 600;
+}
+
+.accordion-body p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #0a2724;
+}
+
+footer span {
+  color: #fff;
+}
+
+footer label {
+  font-size: 25px;
+  color: #fff;
+}
+
+footer input {
+  font-size: 16px;
+  padding: 10px;
+  border: 0;
+  background-color: #b2d8c1;
+  color: #fff;
+}
+
+.copyright {
+  color: #b2d8c1;
+  border-top: 1px solid #475768;
+  padding: 20px 0;
+}
+
+
+@media (max-width: 767px) {
+
+  header {
+    height: auto;
+  }
+
+  header .logo img {
+    width: 130px;
+    padding: 10px;
+  }
+
+  header .phone {
+    font-size: 13px;
+  }
+
+  header .content-banner {
+    text-align: center;
+  }
+
+  header .content-banner h1 {
+    font-size: 40px;
+  }
+
+  header .content-banner small {
+    font-size: 14px;
+  }
+
+  header .btn-primary {
+    padding: 10px 14px;
+  }
+
+  header .btn.btn-primary {
+    font-size: 16px;
+  }
+
+  header .btn.btn-primary i {
+    font-size: 20px;
+  }
+
+  header .img-header img {
+    width: 100%;
+    position: inherit;
+    left: 0;
+  }
+
+  header .follow-links-header ul {
+    display: flex;
+    padding: 0;
+  }
+
+  header .follow-links-header li {
+    margin-left: 20px;
+  }
+
+  .section-carousel-home h2 {
+    font-size: 30px !important;
+  }
+
+  .carousel-home .fa-chevron-left {
+    position: absolute;
+    right: 48px;
+    top: -32px;
+    margin: auto;
+    height: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #aee2c3;
+    bottom: auto;
+    left: inherit;
+  }
+
+  .carousel-home .fa-chevron-right {
+    position: absolute;
+    right: 19px;
+    top: -32px;
+    margin: auto;
+    height: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #aee2c3;
+    bottom: auto;
+  }
+
+  .carousel-home h4, .carousel-home-2 h4{
+    font-size: 17px;
+  }
+
+  .carousel-home-2 .slick-dots {
+    margin-top: 20px;
+    padding: 0;
+    margin-left: -10px;
+  }
+
+  .carousel-home-2 .slick-dots .slick-active button::after {
+    width: 12px;
+    height: 12px;
+  }
+
+  .carousel-home-2 .slick-dots li button::after {
+    width: 12px;
+    height: 12px;
+  }
+
+  .carousel-home-2 .slick-dots li {
+    margin-right: 0;
+  }
+  
+  .section-benefits {
+    height: auto;
+  }
+
+  .section-benefits h2 {
+    font-size: 30px;
+  }
+
+  .section-benefits .title {
+    background-image: none;
+    height: auto;
+  }
+
+  .section-benefits p {
+    font-size: 16px;
+  }
+
+  .section-service img {
+    width: 80px;
+  }
+
+  .section-service h5 {
+    font-size: 16px;
+  }
+
+  .section-faqs {
+    margin-top: 0 !important;
+  }
+
+  .section-faqs .d-flex {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .section-faqs h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .section-faqs .btn.btn-primary {
+    font-size: 16px;
+  }
+
+  .accordion .accordion-body {
+    padding: 20px !important;
+  }
+
+  .accordion-button {
+    font-size: 16px !important;
+  }
+
+  .accordion .accordion-body h4, .accordion .accordion-body p {
+    font-size: 16px;
+  }
+
+  footer img {
+    width: 120px;
+  }
+
+  footer input {
+    width: 100%;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+}
