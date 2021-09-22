@@ -162,6 +162,13 @@ header .follow-links-header .follow-text {
   border: 2px solid #98c5aa;
 }
 
+.wp-action {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 10000;
+}
+
 .section-benefits {
   height: 620px;
 }
@@ -395,7 +402,7 @@ footer input {
   .carousel-home-2 .slick-dots li {
     margin-right: 0;
   }
-  
+
   .section-benefits {
     height: auto;
   }
